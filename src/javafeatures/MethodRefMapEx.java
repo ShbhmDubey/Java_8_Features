@@ -29,7 +29,7 @@ public class MethodRefMapEx {
        List<String>upperName=MethodRefMapEx.chngeInUpper(names);
        System.out.print(upperName+" ");
        System.out.println("**********");
-       List<Person>pp=List.of(new Person("Shubham",22),new Person("Nimmi",21));
+       List<Person>pp=List.of(new Person("Shubham",22),new Person("Sita",21));
        pp.stream().map(Person::newAge).forEach(i->System.out.print(i+" "));
 	}
 
